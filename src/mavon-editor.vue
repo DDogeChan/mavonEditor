@@ -257,7 +257,7 @@ export default {
                 }
                 return default_open_ === 'preview' ? true : false;
             })(), // props true 展示编辑 false展示预览
-            s_fullScreen: false,// 全屏编辑标志
+            s_fullScreen: true,// 全屏编辑标志
             s_help: false,// markdown帮助
             s_html_code: false,// 分栏情况下查看html
             d_help: null,
